@@ -1,0 +1,134 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #181818; /* Dark theme for Coffee Insights */
+    color: #f0f0f0;
+    margin: 0;
+}
+
+/* Langflow Client Interface Styles */
+.container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333; /* Light text for Langflow Client Interface */
+    line-height: 40px;
+    font-weight: 100px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+textarea, select, input[type="checkbox"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #28a745;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 70px;
+    font-size: x-large;
+    font-weight: 500;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+#outputSection {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+#responseText {
+    font-size: 16px;
+    color: #555;
+}
+
+/* Coffee Insights Styles */
+.container:nth-of-type(2) {
+    width: 80%;
+    padding: 20px;
+    background-color: #181818;
+}
+
+#insights-section {
+    margin-top: 20px;
+}
+
+li span{
+    background-color: rgb(215, 215, 166);
+    color: #181818;
+}
+
+#insights-section h2 {
+    color: #aaa;
+}
+
+#insights-section ul {
+    list-style-type: none;
+}
+
+#insights-section li {
+    margin: 10px 0;
+    color: #d4d4d4;
+}
+
+#graphs-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+canvas {
+    border: 1px solid #444;
+    background-color: #333;
+}
+
+#graphs-section-2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.graph-container {
+    width: 45%; /* Adjust width of each graph */
+    display: flex;
+    justify-content: center;
+}
+
+#graphs-section-2 .graph-container canvas {
+    margin: 0 10px; /* Space between the two circle graphs */
+}
+
+label{
+    color: black;
+}
